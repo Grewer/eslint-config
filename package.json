@@ -18,10 +18,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/Grewer/eslint-config",
+  "homepage": "https://github.com/Grewer/grewer-eslint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Grewer/eslint-config"
+    "url": "https://github.com/Grewer/grewer-eslint-config"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.10.0",
