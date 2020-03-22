@@ -26,7 +26,6 @@ module.exports = {
     javascriptReact,
     typescript,
     typescriptReact,
-    html,
     {
       files: ['*.{spec,test}.{js,ts,tsx}', '**/__tests__/**/*.{js,ts,tsx}'],
       env: {
