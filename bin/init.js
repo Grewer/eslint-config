@@ -27,11 +27,18 @@ function getPackageJson() {
     return JSON.parse(_packageJson)
 }
 
-let packData = getPackageJson()
+
+let packData
+
+try {
+    packData = getPackageJson()
+} catch (e) {
+    console.log('-- 读取 package.json 文件失败 ' + e)
+}
 
 
 function writePackageJson(packData) {
-    console.log('----------------------1. 开始修改package.json文件')
+    console.log('--开始修改package.json文件')
     for (let key in config) {
         packData[key] = config[key]
     }
@@ -41,4 +48,4 @@ function writePackageJson(packData) {
     });
 }
 
-writePackageJson()
+writePackageJson(packData)

@@ -15,6 +15,9 @@
   "scripts": {
     "postversion": "git push --tags && git push && npm publish"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/Grewer/eslint-config",
   "repository": {
     "type": "git",
