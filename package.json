@@ -8,6 +8,9 @@
     "prettier",
     "typescript"
   ],
+  "bin": {
+    "g-eslint": "./bin/init.js"
+  },
   "main": "index.js",
   "scripts": {
     "postversion": "git push --tags && git push && npm publish"
@@ -36,6 +39,7 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.9.0",
     "eslint-plugin-you-dont-need-momentjs": "^1.5.0",
     "prettier": "^1.19.1",
+    "commander": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.9.16",
