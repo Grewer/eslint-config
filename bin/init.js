@@ -9,10 +9,10 @@ program.parse(process.argv);
 
 let config = {
     "eslintConfig": {
-        "extends": ["grewer-eslint-config"]
+        "extends": ["@Grewer"]
     },
     "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js"],
-    "prettier": "grewer-eslint-config/.prettierrc.js"
+    "prettier": "@Grewer/eslint-config/.prettierrc.js"
 }
 
 if (program.reactNative) {
