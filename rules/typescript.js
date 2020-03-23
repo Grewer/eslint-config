@@ -24,4 +24,5 @@ module.exports = {
       variables: false,
     },
   ],
+  '@typescript-eslint/interface-name-prefix': 0
 }

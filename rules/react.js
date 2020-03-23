@@ -17,4 +17,5 @@ module.exports = {
   'react-native/no-raw-text': 0,
   'react-native/no-inline-styles': 0,
   'react-native/split-platform-components': 0,
+  'react/state-in-constructor': 0
 }
