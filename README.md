@@ -5,8 +5,8 @@
 Usage:
 
 ```
-yarn add -D @grew/eslint-config
-// or npm i -D @grew/eslint-config
+yarn add -D @grewer/eslint
+// or npm i -D @grewer/eslint
 
 
 g-eslint

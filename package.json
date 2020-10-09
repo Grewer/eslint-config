@@ -1,6 +1,6 @@
 {
-  "name": "@grew/eslint-config",
-  "version": "0.1.4",
+  "name": "@grewer/eslint",
+  "version": "0.1.0",
   "description": "ESLint config for Grewer",
   "keywords": [
     "eslint-config",
@@ -13,7 +13,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "postversion": "git push --tags && git push && npm publish"
+    "postversion": "npm publish --access public"
   },
   "homepage": "https://github.com/Grewer/eslint-config",
   "repository": {

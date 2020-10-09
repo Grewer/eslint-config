@@ -10,13 +10,13 @@ program.parse(process.argv);
 
 let config = {
     "eslintConfig": {
-        "extends": ["@grew"]
+        "extends": ["@grewer"]
     },
     "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js"],
-    "prettier": "@grew/eslint-config/.prettierrc.js"
+    "prettier": "@grewer/eslint/.prettierrc.js"
 }
 
-if (program.reactNative) {
+if (program.reactNative || program.rn) {
     config.eslintConfig.env = {
         "react-native/react-native": true
     }
