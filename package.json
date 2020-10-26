@@ -1,6 +1,6 @@
 {
-  "name": "@grewer/eslint",
-  "version": "0.1.1",
+  "name": "@grewer/eslint-config",
+  "version": "0.1.2",
   "description": "ESLint config for Grewer",
   "keywords": [
     "eslint-config",

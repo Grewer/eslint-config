@@ -17,13 +17,13 @@ g-eslint
 
 package.json :
 ```
-    "eslintConfig": {
-        "env": {
-              "browser": true
-        },
-        // or in rn project  "react-native/react-native": true
-        "extends": ["./node_modules/@grewer/eslint"]
+"eslintConfig": {
+    "env": {
+          "browser": true
     },
-    "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js"],
-    "prettier": "@grewer/eslint/.prettierrc.js"
+    // or in rn project  "react-native/react-native": true
+    "extends": ["@grewer/eslint-config"]
+},
+"eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js"],
+"prettier": "@grewer/eslint-config/.prettierrc.js"
 ```
