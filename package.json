@@ -8,9 +8,6 @@
     "prettier",
     "typescript"
   ],
-  "bin": {
-    "g-eslint": "./bin/init.js"
-  },
   "main": "index.js",
   "scripts": {
     "postversion": "npm publish --access public"
