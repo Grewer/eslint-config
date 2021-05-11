@@ -395,11 +395,6 @@ commander@^2.11.0:
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.3.tgz?cache=0&sync_timestamp=1584148407069&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
-commander@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-5.0.0.tgz?cache=0&sync_timestamp=1584148318639&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-5.0.0.tgz#dbf1909b49e5044f8fdaf0adc809f0c0722bdfd0"
-  integrity sha1-2/GQm0nlBE+P2vCtyAnwwHIr39A=
-
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/commondir/download/commondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -1221,9 +1216,9 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.4.0:
   version "1.4.0"
