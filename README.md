@@ -22,8 +22,11 @@ package.json :
           "browser": true
     },
     // or in rn project  "react-native/react-native": true
-    "extends": ["@grewer/eslint-config"]
+    "extends": ["@grewer"]
 },
 "eslintIgnore": ["!.eslintrc.js", "!.prettierrc.js"],
 "prettier": "@grewer/eslint-config/.prettierrc.js"
 ```
+
+### 注意点 1:
+在下载本库时, 最好将原有项目里和 eslint 相关的库全部删除
