@@ -3,7 +3,11 @@ const airbnbRules = require('../rules/airbnb.js')
 
 module.exports = {
   files: ['*.js'],
-  extends: ['prettier'],
-  parser: 'babel-eslint',
-  rules: { ...importRules, ...airbnbRules },
+  extends: [
+    'plugin:import/errors',
+    'plugin:import/warnings'
+  ],
+  parser: '@babel/eslint-parser',
+  rules: {...importRules, ...airbnbRules},
+  plugins: []
 }

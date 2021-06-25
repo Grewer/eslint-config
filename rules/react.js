@@ -17,6 +17,9 @@ module.exports = {
   'react-native/no-raw-text': 0,
   'react-native/no-inline-styles': 0,
   'react-native/split-platform-components': 0,
-  'react/state-in-constructor': 0,
-  'react/require-default-props': 0,
+  "react/require-default-props": 0,
+
+  // Prevent missing displayName in a React component definition
+  // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
+  'react/display-name': 0
 }

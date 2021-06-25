@@ -6,12 +6,15 @@ const typescriptRules = require('../rules/typescript.js')
 module.exports = {
   files: ['*.tsx'],
   extends: [
+    'airbnb/hooks',
     'airbnb',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react-native/all',
-    'prettier',
     'prettier/react',
     'prettier/@typescript-eslint',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-native/all',
+    'plugin:import/typescript',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -25,4 +28,5 @@ module.exports = {
     ...reactRules,
     ...typescriptRules,
   },
+  plugins: []
 }

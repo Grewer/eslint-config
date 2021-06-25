@@ -4,11 +4,16 @@ const typescriptRules = require('../rules/typescript.js')
 
 module.exports = {
   files: ['*.ts'],
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier', 'prettier/@typescript-eslint'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:import/typescript',
+  ],
   parser: '@typescript-eslint/parser',
   rules: {
     ...importRules,
     ...airbnbRules,
     ...typescriptRules,
   },
+  plugins: []
 }

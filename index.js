@@ -9,30 +9,24 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-    'plugin:jest/recommended',
+    'eslint:recommended',
     'plugin:prettier/recommended',
     'plugin:you-dont-need-lodash-underscore/compatible',
     'plugin:you-dont-need-momentjs/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
-      impliedStrict: true,
+      impliedStrict: true
     },
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
+    project: ["./tsconfig.json"]
   },
   overrides: [
     javascript,
     javascriptReact,
     typescript,
     typescriptReact,
-    {
-      files: ['*.{spec,test}.{js,ts,tsx}', '**/__tests__/**/*.{js,ts,tsx}'],
-      env: {
-        jest: true,
-        'jest/globals': true,
-      },
-    },
   ],
   settings: {
     'import/extensions': ['.js', '.ts', '.tsx'],

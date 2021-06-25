@@ -4,8 +4,15 @@ const reactRules = require('../rules/react.js')
 
 module.exports = {
   files: ['*.jsx'],
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  parser: 'babel-eslint',
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:react-native/all',
+    'prettier/react',
+    'plugin:jsx-a11y/recommended',
+    'plugin:react/recommended'
+  ],
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -16,4 +23,7 @@ module.exports = {
     ...airbnbRules,
     ...reactRules,
   },
+  plugins: [
+    'import'
+  ]
 }
