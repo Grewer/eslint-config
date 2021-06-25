@@ -10,7 +10,11 @@
   ],
   "main": "index.js",
   "scripts": {
-    "postversion": "npm publish --access public"
+    "pub": "npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "homepage": "https://github.com/Grewer/eslint-config",
   "repository": {
